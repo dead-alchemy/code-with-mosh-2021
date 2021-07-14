@@ -1,0 +1,72 @@
+/* font-family: 'Caveat', cursive;
+
+font-family: 'Montserrat', sans-serif; */
+html {
+	font-size: 24px;
+	font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+	font-family: "Caveat", cursive;
+	font-size: 3rem;
+}
+
+h2 {
+	font-family: "Caveat", cursive;
+	font-size: 2rem;
+	text-align: center;
+}
+
+p {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 0.75rem;
+	text-indent: 2rem;
+	line-height: 1.5rem;
+	width: 30ch;
+}
+
+ul {
+	margin: 0px auto;
+	padding: 0;
+	font-size: 0.66rem;
+	line-height: 1.5rem;
+	width: 70ch;
+}
+
+li {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100vw;
+	text-align: center;
+	padding: auto;
+	font-size: 0.66rem;
+	line-height: 1.5rem;
+	width: 70ch;
+}
+
+img {
+	height: 10rem;
+	width: 100%;
+	object-fit: cover;
+}
+
+h1.title {
+	border: white;
+	background: rgb(235, 9, 50);
+	background: linear-gradient(
+		141deg,
+		rgba(235, 9, 50, 0.8316059700247287) 0%,
+		rgba(255, 241, 0, 0.8652194154028799) 100%
+	);
+	border-radius: 2rem;
+	font-family: "Caveat", cursive;
+	font-size: 3rem;
+	color: blue;
+	z-index: 1;
+	position: absolute;
+	width: fit-content;
+	padding: 1rem;
+	top: -0.75rem;
+	left: 2rem;
+}
