@@ -1,0 +1,10 @@
+:root {
+	/* color pallete */
+	--color-primary: #2584ff;
+	--color-secondary: #00d9ff;
+	--color-accent: #ff3400;
+
+	/* text pallete */
+	--color-heading: #1b0760;
+	--color-text: #918ca4;
+}
