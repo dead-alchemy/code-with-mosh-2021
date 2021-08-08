@@ -14,35 +14,21 @@
 		<link rel="stylesheet" href="./css/styles.css" />
 		<title>Moshified</title>
 	</head>
-	<body style="padding: 4rem">
-		<section class="block container">
-			<header class="block_header">
-				<h2 class="block__heading">Heading</h2>
-				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-					Facere debitis odit vel aliquam nemo suscipit ea ratione
-					porro eum fugiat? Corrupti odio nulla assumenda quis quas
-					beatae explicabo veritatis corporis eum. Sint aut eum
-					aspernatur tempore eos provident repellat dolore magni qui
-					libero alias perferendis, minima consequuntur? Quaerat,
-					aliquid ipsa.
-				</p>
-			</header>
-		</section>
-		<section class="block block--dark block--skewed-left">
-			<div class="container">
-				<h2 class="block__heading">Heading</h2>
-				<p>
-					Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-					Facere debitis odit vel aliquam nemo suscipit ea ratione
-					porro eum fugiat? Corrupti odio nulla assumenda quis quas
-					beatae explicabo veritatis corporis eum. Sint aut eum
-					aspernatur tempore eos provident repellat dolore magni qui
-					libero alias perferendis, minima consequuntur? Quaerat,
-					aliquid ipsa.
-				</p>
-			</div>
-		</section>
+	<body>
+		<nav class="nav collapsible">
+			<a class="nav__brand" href="/"
+				><img src="./images/logo.png" alt="Logo of Moshify"
+			/></a>
+			<svg class="icon icon--white nav__toggler">
+				<use xlink:href="images/sprite.svg#menu"></use>
+			</svg>
+			<ul class="list nav__list collapsible__content">
+				<li class="nav__item"><a href="#">Hosting</a></li>
+				<li class="nav__item"><a href="#">VPS</a></li>
+				<li class="nav__item"><a href="#">Domain</a></li>
+				<li class="nav__item"><a href="#">Pricing</a></li>
+			</ul>
+		</nav>
 		<script src="./code/main.js"></script>
 	</body>
 </html>
